@@ -1,0 +1,10 @@
+.pokemonButton{
+    background-color: white;
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    border: 0px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    width: 48%;	
+    height: 8.5%;
+}

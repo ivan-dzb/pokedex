@@ -1,0 +1,65 @@
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 5px;
+  overflow: hidden;
+}
+
+.backButton {
+    position: absolute;
+    left: 53%;
+    top: 0;
+    margin: 10px;
+    border-radius: 100%;
+    border: 0px;
+    background-color: lightgray;
+    color: white;
+    font-weight: 1000;
+    cursor: pointer;
+}
+
+.title{
+    font-weight: 600;
+    align-self: center;
+}
+
+.extraData{
+    font-size: 0.75rem;
+    margin: 3px 0px;
+}
+
+.divider{
+    width: 100%;
+    height: 2px;
+    background-color: goldenrod;
+    margin: 5px 0px;
+    border: 0px;
+}
+
+.subtitle{
+    font-weight: 600;
+    margin: 5px 0px;
+}
+
+.cardContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px; 
+    padding: 5px;
+    border-radius: 5px;
+    background-color: goldenrod;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 0.75rem;
+}
